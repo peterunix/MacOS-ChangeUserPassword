@@ -1,0 +1,13 @@
+* Details
+Changes a passsword for a user.
+You need to provide credentials for an admin user to change the password for another user.
+
+* Usage
+#+begin_src shell
+target_user="TargetUsername"
+target_password="TargetUsersNEWPassword"
+admin_user="administrator"
+admin_password="AdministratorPassword"
+
+./script.sh
+#+end_src
